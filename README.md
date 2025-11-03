@@ -16,4 +16,4 @@ Run Cypress in Test Run Mode (Headless) Use the following command to run all Cyp
 npx cypress run
 
 # Documentation Links
-[https://github.com/DefinitelyRaman/AutomationPractice/blob/main/docs/git-strategy.md] - Git strategy for this repository.
+[(https://github.com/DefinitelyRaman/AutomationPractice/blob/main/docs/git-strategy.md)] - Git strategy for this repository.
