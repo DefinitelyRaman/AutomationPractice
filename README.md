@@ -17,3 +17,4 @@ npx cypress run
 
 # Documentation Links
 [git-strategy.md](https://github.com/DefinitelyRaman/AutomationPractice/blob/main/docs/git-strategy.md) - Git strategy for this repository.
+[VS Code hotkeys](https://github.com/DefinitelyRaman/AutomationPractice/blob/main/docs/hotkeys.md) - hotkeys for VS Code
