@@ -31,6 +31,8 @@ Open a merge request (MR) to develop.
 
 Ensure tests pass before merging.
 
+Get at least one approve to any pull request.
+
 Use squash and merge to keep a clean history.
 
 Delete the branch after merging.
@@ -38,6 +40,6 @@ Delete the branch after merging.
 ## Git Strategy
 
 - **Direct commits to the main branch are declined.**
-- **One approver is (me) required per Pull Request (PR).**
+- **One approver is required per Pull Request (PR).**
 - **Only squash merges are allowed.**
-- **Source branches are stored after PR merge.**
+- **Source branches are deleted after PR merge.**
