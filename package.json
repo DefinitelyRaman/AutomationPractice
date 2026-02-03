@@ -4,7 +4,14 @@
   "description": "What should I type here?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
   },
   "repository": {
     "type": "git",
@@ -19,6 +26,9 @@
   },
   "homepage": "https://github.com/DefinitelyRaman/AutomationPractice#readme",
   "devDependencies": {
-    "cypress": "^15.4.0"
+    "cypress": "^15.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.6.2"
   }
 }

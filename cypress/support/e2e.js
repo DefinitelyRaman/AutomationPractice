@@ -14,4 +14,6 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import userRoles from './requirements/user-roles';
+
+global.userRoles = userRoles.userRoles;
